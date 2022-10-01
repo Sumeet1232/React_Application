@@ -74,7 +74,7 @@ const AddUser = () => {
                             placeholder="Enter Your Website Name"
                             name="website"
                             value={website}
-                            onChange={e => onInputChange(e)}
+                            onChange={e => onInputChange(e) }
                         />
                     </div>
                     <button className="btn btn-primary btn-block">Add User</button>
